@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="calculator-container">
       <h1>React Calculator</h1>
-      <div className="display">{input}</div>
+      <div className="display" data-testid="display">{input}</div>
       <div className="buttons">
         {["7", "8", "9", "/", "4", "5", "6", "*", "1", "2", "3", "-", "0", ".", "=", "+"].map((btn) => (
           <button
